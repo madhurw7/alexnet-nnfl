@@ -12,6 +12,8 @@ The DataSet can be found over at [Tiny ImageNet Visual Recognition Challenge](ht
 In case you don't have conda installed, head over to [this link](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
 After installing conda, enter the following in the Terminal:
 
+Modify `prefix` in environment file to the location where you wish to install the environment
+
 ```
 git clone https://github.com/madhurw7/alexnet-nnfl.git
 cd alexnet-nnfl
