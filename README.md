@@ -12,10 +12,12 @@ The DataSet can be found over at [Tiny ImageNet Visual Recognition Challenge](ht
 In case you don't have conda installed, head over to [this link](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
 After installing conda, enter the following in the Terminal:
 
-`git clone https://github.com/madhurw7/alexnet-nnfl.git`
-`cd alexnet-nnfl`
-`conda env create -f environment.yml`
-`jupyter notebook`
+```
+git clone https://github.com/madhurw7/alexnet-nnfl.git
+cd alexnet-nnfl
+conda env create -f environment.yml
+jupyter notebook
+```
 
 Use the `classification-tut.ipynb` notebook and run it.
 If you are running the notebook for the first time, set the `downloadDataset` variable to `True`, otherwise set it to `False`.
